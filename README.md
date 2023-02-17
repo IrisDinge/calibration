@@ -33,7 +33,6 @@ $$\left\{\begin{array}{l}x=\frac{f x_c}{z_c} \\ y=\frac{f y_c}{z_c}\end{array}\r
 
 $$z_c m=\left(\begin{array}{c}f_x \\ f_y \\ 1\end{array}\right)=\left(\begin{array}{llll}f & 0 & 0 & 0 \\ 0 & f & 0 & 0 \\ 0 & 0 & 1 & 0\end{array}\right) X_c$$
 
-![C:\Users\Jin.Ding2\Desktop\Docs\FishEye_Calibr](pinhole.png "针孔模型")
 
 ## Work-flow
 
@@ -60,7 +59,7 @@ graph TD
 | iv 等积投影  | r=2f $sin\frac{θ}{2}$ |     在变换前后，物体所占的立体角大小不变      |
 |  v 正交投影  |      r=f$\sinθ$       | 投影畸变最大，而且最大视角不能大于$180^\circ$ |
 
-![C:\Users\Jin.Ding2\Desktop\Docs\FishEye_Calibr](Fisheye_ProjectModel.png "鱼眼镜头模型")
+
 
 ## 鱼眼镜头畸变矫正
 -----------------------
